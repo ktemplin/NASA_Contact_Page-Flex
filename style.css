@@ -1,0 +1,54 @@
+
+
+img {
+    max-width: 850px;
+    margin: 5px;
+}
+
+div{
+    /* display: flex;
+    flex-direction: column; */
+    width: 270px;
+    padding: 20px;
+}
+
+.box {
+    display: flex;
+    justify-content: space-evenly;
+    float: left;
+    min-width: 830px;
+    height: 324px;
+    background-color: lightgrey;
+    padding: 20px;
+    margin: 5px;
+}
+
+.column {
+    width: 270px;
+    padding-left: 20px;
+
+}
+
+input{
+    width: 250px;
+}
+
+.message {
+    height: 70px;
+}
+
+.button {
+    color: white;
+    background-color: black;
+    width: 80px;
+    height: 30px;
+    margin: 5px;
+
+}
+
+@media screen and (max-widht: 800px) {
+    .column {
+        width: 100%;
+    }
+    
+}
