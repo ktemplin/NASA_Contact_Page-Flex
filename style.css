@@ -1,8 +1,11 @@
-
+body {
+    background-color: aliceblue;
+}
 
 img {
     max-width: 850px;
     margin: 5px;
+    object-position: left top;
 }
 
 div{
@@ -16,7 +19,7 @@ div{
     display: flex;
     justify-content: space-evenly;
     float: left;
-    min-width: 830px;
+    min-width: 810px;
     height: 324px;
     background-color: lightgrey;
     padding: 20px;
@@ -26,7 +29,7 @@ div{
 .column {
     width: 270px;
     padding-left: 20px;
-
+    font-family: Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 input{
